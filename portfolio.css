@@ -1,0 +1,255 @@
+body {
+  background-color: #999999;
+}
+
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  border: 1px solid black;
+  padding: 24px;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+}
+
+h1 {
+  text-align: center;
+  grid-column: span 12;
+}
+
+.aboutParagraph {
+  text-align: center;
+  grid-column: span 12;
+
+  margin-left: 200px;
+  margin-right: 200px;
+
+}
+
+nav {
+  grid-column: span 12;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+nav li {
+  border: 0px solid grey;
+  width: 130px;
+  background-color: grey;
+
+  display: inline-block;
+
+  text-decoration: none;
+
+  border-radius:15px;
+}
+
+nav li a {
+  display: block;
+  padding: 15px;
+
+  font-size: 24px;
+  text-align: center;
+
+  border-radius:15px;
+
+   transition: background-color 1.0s, width 1.0s, color 1.0s;
+
+   color: white;
+   text-decoration: none;
+}
+
+.currentPage {
+  color: white;
+  background-color: #454545;
+}
+
+.firstNavButton {
+  margin-left: 260px;
+}
+
+nav li a:hover {
+  background-color: lightgrey;
+  color: black;
+}
+
+.magnoliatitle {
+  grid-column: span 12;
+  margin-left: 550px;
+  font-size: 26px;
+}
+
+.oottitle {
+  grid-column: span 12;
+  margin-left: 380px;
+  font-size: 26px;
+}
+
+.floatImage {
+  grid-column: span 3;
+  width: 500px;
+}
+
+.demoClass {
+  grid-column: span 8;
+
+  text-align: center;
+}
+
+.demoClass1 {
+  grid-column: span 10;
+
+  text-align: center;
+
+  margin-left:150px;
+}
+
+.shortDescription {
+  grid-column: span 12;
+  color: grey;
+  margin-left: 540px;
+}
+
+footer {
+  grid-column: span 12;
+  margin: 25px;
+}
+
+footer a{
+  font-size: 50px;
+  color: black;
+}
+
+#myCarousel {
+  --f-arrow-pos: 0px;
+  width: 500px;
+  justify-self: start;
+}
+
+#myCarousel .f-carousel__slide img {
+  width: 500px;
+  object-fit: contain;
+}
+
+.f-carousel {
+  --f-arrow-pos: 10px;
+
+  --f-arrow-width: 38px;
+  --f-arrow-height: 38px;
+
+  --f-arrow-svg-width: 16px;
+  --f-arrow-svg-height: 16px;
+  --f-arrow-svg-stroke-width: 2.5;
+
+  --f-arrow-color: #475569;
+  --f-arrow-shadow: 0 6px 12px -2px rgb(50 50 93 / 25%), 0 3px 7px -3px rgb(0 0
+          0 / 30%);
+
+  --f-arrow-border-radius: 50%;
+  --f-arrow-bg: #fff;
+  --f-arrow-hover-bg: #f9f9f9;
+  --f-arrow-active-bg: #f0f0f0;
+}
+
+
+.demoClassDemoPage {
+  grid-column: span 8;
+
+  text-align: center;
+
+  margin-left: 60px;
+}
+
+.phone{
+  grid-column: span 12;
+
+  margin-top: 30px;
+  margin-left: 500px;
+}
+
+.email {
+  grid-column: span 12;
+
+  margin-top: 30px;
+  margin-left: 450px;
+}
+
+.resumeButton:hover {
+  background-color: lightgrey;
+  color: black;
+}
+
+.resumeButton {
+
+  grid-column: span 12;
+
+  margin-top: 30px;
+  margin-left: 510px;
+  list-style: none;
+}
+
+.resumeButton {
+  border: 0px solid grey;
+  width: 130px;
+  background-color: grey;
+
+  display: inline-block;
+
+  text-decoration: none;
+
+  border-radius:15px;
+}
+
+.resumeButton a {
+  display: block;
+  padding: 15px;
+
+  font-size: 24px;
+  text-align: center;
+
+  border-radius:15px;
+
+   transition: background-color 1.0s, width 1.0s, color 1.0s;
+
+   color: white;
+   text-decoration: none;
+}
+
+.beatSheetTitle {
+  grid-column: span 12;
+
+  margin-left: 290px;
+}
+
+.PDFclass {
+  grid-column: span 3;
+
+  width: 500px;
+  height: 400px;
+}
+
+.horrorLogTitle {
+  grid-column: span 12;
+
+  margin-left: 440px;
+}
+
+.bibleFragmentTitle {
+  grid-column: span 12;
+
+  margin-left: 430px;
+}
+
+.narrativeParagraph {
+   grid-column: span 8;
+
+  margin-left: 100px;
+  margin-top: 100px;
+
+  text-align: center;
+}
